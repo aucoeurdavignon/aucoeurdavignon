@@ -1,11 +1,3 @@
-body {
-    background: url(/images/background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .lighttext {
     color: lightgrey;
     text-shadow:
@@ -13,4 +5,43 @@ body {
        1px -1px 1px #000,
       -1px  1px 1px #000,
        1px  1px 1px #000;
+}
+
+#home {
+    background: url(/images/background.jpg) no-repeat center center;
+    height: 100%;
+}
+
+.moire {
+  background: url(/images/4.png) 100% 0 repeat fixed;
+  height:100%;
+  overflow: hidden;
+}
+
+.row-bottom {
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-size: 80px;
+  text-align:center;
+}
+
+#jumbo {
+  background-color:transparent;
+}
+
+html,
+body,
+body > section
+{
+    height: 100%;
+}
+
+body 
+{ 
+    overflow: hidden;
+    overflow-y: auto;
 }
