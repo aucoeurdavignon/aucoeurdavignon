@@ -45,3 +45,7 @@ body
     overflow: hidden;
     overflow-y: auto;
 }
+
+a {
+  color:#FFFFFF
+}
